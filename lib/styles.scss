@@ -1,0 +1,31 @@
+:root {
+  @for $i from 0 through 12 {
+    --brie-primary-#{$i}: var(--indigo-#{$i});
+  }
+
+  --brie-radius: 6px;
+
+  --brie-regular: 400;
+  --brie-bold: 600;
+
+  --brie-font-size-1: 1rem;
+  --brie-font-size-2: 1.1rem;
+
+  --brie-size-000: -0.5rem;
+  --brie-size-00: -0.25rem;
+  --brie-size-1: 0.25rem;
+  --brie-size-2: 0.5rem;
+  --brie-size-3: 1rem;
+  --brie-size-4: 1.25rem;
+  --brie-size-5: 1.5rem;
+  --brie-size-6: 1.75rem;
+  --brie-size-7: 2rem;
+  --brie-size-8: 3rem;
+  --brie-size-9: 4rem;
+  --brie-size-10: 5rem;
+  --brie-size-11: 7.5rem;
+  --brie-size-12: 10rem;
+  --brie-size-13: 15rem;
+  --brie-size-14: 20rem;
+  --brie-size-15: 30rem;
+}

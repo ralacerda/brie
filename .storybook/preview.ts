@@ -1,5 +1,6 @@
 import type { Preview } from "@storybook/vue3";
 import "open-props/style";
+import "../lib/styles.scss";
 
 const preview: Preview = {
   parameters: {

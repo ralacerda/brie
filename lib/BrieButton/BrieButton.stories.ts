@@ -15,6 +15,7 @@ const meta: Meta<typeof BrieButton> = {
   args: {
     disabled: false,
     busy: false,
+    icon: "",
   },
   argTypes: {},
 };
@@ -24,4 +25,10 @@ type Story = StoryObj<typeof BrieButton>;
 
 export const Primary: Story = {
   args: {},
+};
+
+export const WithIcon: Story = {
+  args: {
+    icon: "mdi:send",
+  },
 };
